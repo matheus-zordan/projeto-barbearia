@@ -1,0 +1,127 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulos h2{
+    font-size: 2em;
+    text-align: center;
+    font-weight: normal;
+}
+
+/* ESTILO DO HEADER */
+
+header {
+    background: black;
+}
+
+header .imagem-logo img {
+    width: 200px;
+    padding: 15px 0;
+}
+
+.caixa-header {
+    display: flex;
+    width: 940px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.links-header a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.links-header a:hover {
+    color: orange;
+    text-decoration: underline;
+
+}
+
+/* FIM DO ESTILO DO HEADER */
+
+.imagem-barbearia {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imagem-barbearia img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* INICO DO ESTILO DA SECTION SOBRE A BARBEARIA*/
+main {
+    margin: 0 auto;
+    width: 100%;
+    width: 940px;
+}
+
+section.sobre-barbearia {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.sobre-barbearia .titulos {
+    width: 100%;
+    margin-top: 50px;
+}
+
+section.sobre-barbearia .img-sobre-txt {
+    display: flex;
+    padding-top: 20px;
+}
+
+section.sobre-barbearia .img-sobre-txt p {
+    text-align: justify;
+    line-height: 20px;
+}
+
+section.sobre-barbearia .img-sobre-txt img {
+    width: 120px;
+    margin-right: 50px;
+}
+
+/* FIM DA ESTILIZAÇÃO SOBRE A BARBEARIA */
+
+/* INÍCIO DA SECTION NOSSOS SERVIÇOS */
+
+section.nossos-servicos .titulos {
+    width: 100%;
+    margin-top: 100px;
+}
+
+section.nossos-servicos .servicos{
+    display: flex;
+    gap: 30px;
+}
+
+section.nossos-servicos .servicos .categoria{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 33%;
+    text-align: center;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+section.nossos-servicos .servicos .categoria:hover{
+    border: 2px solid orange;
+}
+
+section.nossos-servicos .servicos .categoria .preco{
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 10px;
+}
+.categoria h3{
+    font-size: 30px;
+    text-align: center;
+}
