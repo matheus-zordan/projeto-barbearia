@@ -5,7 +5,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.titulos h2{
+.titulos h2 {
     font-size: 2em;
     text-align: center;
     font-weight: normal;
@@ -91,6 +91,7 @@ section.sobre-barbearia .img-sobre-txt img {
 
 /* FIM DA ESTILIZAÇÃO SOBRE A BARBEARIA */
 
+
 /* INÍCIO DA SECTION NOSSOS SERVIÇOS */
 
 section.nossos-servicos .titulos {
@@ -98,12 +99,12 @@ section.nossos-servicos .titulos {
     margin-top: 100px;
 }
 
-section.nossos-servicos .servicos{
+section.nossos-servicos .servicos {
     display: flex;
     gap: 30px;
 }
 
-section.nossos-servicos .servicos .categoria{
+section.nossos-servicos .servicos .categoria {
     border: 2px solid black;
     border-radius: 5px;
     width: 33%;
@@ -112,16 +113,18 @@ section.nossos-servicos .servicos .categoria{
     padding: 25px;
 }
 
-section.nossos-servicos .servicos .categoria:hover{
+section.nossos-servicos .servicos .categoria:hover {
     border: 2px solid orange;
 }
 
-section.nossos-servicos .servicos .categoria .preco{
+section.nossos-servicos .servicos .categoria .preco {
     font-weight: bold;
     font-size: 1.3em;
     padding: 10px;
 }
-.categoria h3{
+
+.categoria h3 {
     font-size: 30px;
     text-align: center;
 }
+/* FIM DA SECTION NOSSOS SERVI */
