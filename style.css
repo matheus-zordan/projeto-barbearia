@@ -4,9 +4,11 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-body{
+
+body {
     background: linear-gradient();
 }
+
 .titulos h2 {
     font-size: 2em;
     text-align: center;
@@ -63,7 +65,7 @@ header .imagem-logo img {
 main {
     margin: 0 auto;
     width: 940px;
-    
+
 }
 
 section.sobre-barbearia {
@@ -131,6 +133,7 @@ section.nossos-servicos .servicos .categoria .preco {
     font-size: 30px;
     text-align: center;
 }
+
 /* FIM DA SECTION NOSSOS SERVIÇOS */
 
 /* ÍNICIO DA SECTION NOSSOS ESTABELECIMENTOS */
@@ -140,47 +143,53 @@ section.nossos-estabelecimento .titulos {
     margin-top: 100px;
 }
 
-section.nossos-estabelecimento .texto{
+section.nossos-estabelecimento .texto {
     text-align: center;
     padding: 15px;
 }
 
 section.nossos-estabelecimento .mapa {
-   text-align: center;
+    text-align: center;
 }
-.mapa > iframe{
+
+.mapa>iframe {
     width: 100%;
     margin-top: 20px;
 }
+
 /* FIM DA SECTION NOSSOS ESTABELECIMENTOS */
 
 /* ÍNICIO DA SECTION NOSSOS BENEFÍCIOS */
 
-section.nossos-beneficios{
+section.nossos-beneficios {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 section.nossos-beneficios .titulos {
     width: 100%;
     margin-top: 100px;
 }
 
-section.nossos-beneficios .lista-beneficios{
+section.nossos-beneficios .lista-beneficios {
     margin-top: 50px;
 }
 
-section.nossos-beneficios img{
+section.nossos-beneficios img {
     width: 450px;
     margin-top: 50px;
 }
-section.nossos-beneficios .lista-beneficios .itens::before{
+
+section.nossos-beneficios .lista-beneficios .itens::before {
     content: "★"
 }
-section.nossos-beneficios .lista-beneficios ul li{
+
+section.nossos-beneficios .lista-beneficios ul li {
     padding: 10px;
     list-style: none;
 }
+
 /* FIM DA SECTION NOSSOS BENEFÍCIOS */
 
 /* ÍNICIO DA SECTION AGENDE SEU HORÁRIO */
@@ -190,34 +199,35 @@ section.agende-seu-horario .titulos {
     margin-top: 100px;
 }
 
-section.agende-seu-horario form{
+section.agende-seu-horario form {
     display: flex;
     flex-direction: column;
     padding: 20px;
     align-items: center;
     gap: 10px;
 }
-section.agende-seu-horario form legend{
+
+section.agende-seu-horario form legend {
     text-align: center;
 }
 
-section.agende-seu-horario form select{
+section.agende-seu-horario form select {
     width: 500px;
     height: 35px;
     border: 1px solid black;
 }
 
-section.agende-seu-horario form{
+section.agende-seu-horario form {
     font-size: 1.1em;
 }
 
-section.agende-seu-horario form input{
+section.agende-seu-horario form input {
     border: 1px solid black;
     width: 500px;
     height: 35px;
 }
 
-section.agende-seu-horario button{
+section.agende-seu-horario button {
     cursor: pointer;
     color: white;
     background-color: orange;
@@ -228,11 +238,12 @@ section.agende-seu-horario button{
     font-weight: bold;
     transition: 1.2s;
 }
-section.agende-seu-horario button:hover{
+
+section.agende-seu-horario button:hover {
     transform: scale(1.1);
 }
 
-footer{
+footer {
     background-color: #000000;
     width: 100%;
     height: 250px;
@@ -240,6 +251,70 @@ footer{
     align-items: center;
     justify-content: center;
 }
-footer img{
+
+footer img {
     height: 200px;
+}
+
+/* FIM DA SECTION AGENDE SEU HORÁRIO */
+
+/* INICIO DAS MEDIAS QUERYS */
+
+@media screen and (max-width: 1015px) {
+    .caixa-header {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .links-header a {
+        font-size: 12px;
+    }
+    header .imagem-logo img {
+        width: 120px;
+        padding: 5px;
+    }
+    .imagem-barbearia {
+        width: 450px;
+    }
+    
+    .imagem-barbearia img {
+        width: 100%;
+    }
+    main {
+        width: 300px;
+    }
+    section.sobre-barbearia .img-sobre-txt {
+     flex-direction: column;
+     align-items: center;
+    }
+    section.sobre-barbearia .img-sobre-txt img {
+        width: 150px;
+        margin: 0 auto;
+    }
+    section.sobre-barbearia .img-sobre-txt p {
+        margin-top: 30px;
+    }
+    section.nossos-servicos .servicos {
+        flex-direction: column;
+    }
+    section.nossos-servicos .servicos .categoria {
+        width: 100%;
+    }
+    section.nossos-servicos .servicos .categoria:hover {
+        transform: scale(1.07);
+    }
+    section.agende-seu-horario form select {
+        width: 300px;
+    }
+    
+    section.agende-seu-horario form {
+        font-size: 1.1em;
+    }
+    section.agende-seu-horario form input {
+        width: 300px;
+    }
+    section.nossos-beneficios img {
+        width: 300px;
+    }
+
 }
