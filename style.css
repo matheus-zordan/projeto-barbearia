@@ -265,9 +265,10 @@ footer img {
         width: 100%;
         flex-direction: column;
         justify-content: center;
+        height: 250px;
     }
     .links-header a {
-        font-size: 12px;
+        font-size: 14px;
     }
     header .imagem-logo img {
         width: 120px;
