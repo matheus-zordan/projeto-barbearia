@@ -111,10 +111,12 @@ section.nossos-servicos .servicos .categoria {
     text-align: center;
     margin-top: 50px;
     padding: 25px;
+    transition: .3s;
 }
 
 section.nossos-servicos .servicos .categoria:hover {
     border: 2px solid orange;
+    transform: scale(1.05);
 }
 
 section.nossos-servicos .servicos .categoria .preco {
