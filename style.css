@@ -282,7 +282,7 @@ footer img {
         width: 100%;
     }
     main {
-        width: 300px;
+        width: 350px;
     }
     section.sobre-barbearia .img-sobre-txt {
      flex-direction: column;
@@ -315,7 +315,7 @@ footer img {
         width: 300px;
     }
     section.nossos-beneficios img {
-        width: 300px;
+        width: 350px;
     }
 
 }
