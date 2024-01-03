@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-
+body{
+    background: linear-gradient();
+}
 .titulos h2 {
     font-size: 2em;
     text-align: center;
@@ -60,8 +62,8 @@ header .imagem-logo img {
 /* INICO DO ESTILO DA SECTION SOBRE A BARBEARIA*/
 main {
     margin: 0 auto;
-    width: 100%;
     width: 940px;
+    
 }
 
 section.sobre-barbearia {
@@ -101,22 +103,22 @@ section.nossos-servicos .titulos {
 
 section.nossos-servicos .servicos {
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
 }
 
 section.nossos-servicos .servicos .categoria {
     border: 2px solid black;
     border-radius: 5px;
-    width: 33%;
+    width: 30%;
     text-align: center;
     margin-top: 50px;
-    padding: 25px;
+    padding: 15px;
     transition: .3s;
 }
 
 section.nossos-servicos .servicos .categoria:hover {
     border: 2px solid orange;
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 section.nossos-servicos .servicos .categoria .preco {
@@ -130,3 +132,53 @@ section.nossos-servicos .servicos .categoria .preco {
     text-align: center;
 }
 /* FIM DA SECTION NOSSOS SERVIÇOS */
+
+/* ÍNICIO DA SECTION NOSSOS ESTABELECIMENTOS */
+
+section.nossos-estabelecimento .titulos {
+    width: 100%;
+    margin-top: 100px;
+}
+
+section.nossos-estabelecimento .texto{
+    text-align: center;
+    padding: 15px;
+}
+
+section.nossos-estabelecimento .mapa {
+   text-align: center;
+}
+.mapa > iframe{
+    width: 100%;
+    margin-top: 20px;
+}
+/* FIM DA SECTION NOSSOS ESTABELECIMENTOS */
+
+/* ÍNICIO DA SECTION NOSSOS BENEFÍCIOS */
+
+section.nossos-beneficios .titulos {
+    width: 100%;
+    margin-top: 100px;
+}
+
+section.nossos-beneficios .lista-beneficios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+section.nossos-beneficios .lista-beneficios .itens::before{
+    content: "★"
+}
+section.nossos-beneficios .lista-beneficios ul li{
+    padding: 10px;
+    list-style: none;
+}
+/* FIM DA SECTION NOSSOS BENEFÍCIOS */
+
+/* ÍNICIO DA SECTION AGENDE SEU HORÁRIO */
+
+section.agende-seu-horario .titulos {
+    width: 100%;
+    margin-top: 100px;
+}
